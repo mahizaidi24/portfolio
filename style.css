@@ -1,0 +1,291 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgb(2, 3, 36);
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color: rgb(8, 3, 77);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(128, 143, 224);
+}
+.left{
+    font-size: 30px;
+}
+                                                            /* First-Section */
+.firstsecdiv{
+display: grid;
+grid-template-columns: 700px 700px;
+align-items: center;
+text-align: center;
+height: 500px;
+text-align: center;
+flex-direction: row;                                                                                                                          
+} 
+.leftsec{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    height: 374px;
+    position: relative;
+    left: 90px
+}              
+#element{
+    color: rgb(107, 145, 228);
+}
+.one{
+    color: rgb(46, 76, 175);
+}
+.rightsec{
+    display: flex;
+    justify-content: center;
+}
+.imgsec{
+    width: 390px;
+    height: 390px;
+}
+hr{
+    background-color: rgb(46, 76, 175);
+    border: 0px;
+    height: 1px;
+    margin: 50px;
+}
+                                                                /* Second-Section */
+.para{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color: transparent;
+    position: relative;
+    right: 500px;
+    top: 40px;
+}
+  .expimg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;   
+    top: 50px;
+}
+.cont1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 40px;
+}  
+.item1{   
+    width: 3px;
+    height: 130px;
+    background-color: rgb(8, 3, 77);
+}    
+.item2{
+    width: 3px;
+    height: 130px;
+    background-color: rgb(8, 3, 77);
+}
+.item3{
+    width: 3px;
+    height: 130px;
+    background-color: rgb(8, 3, 77);
+} 
+.item4{
+    width: 3px;
+    height: 130px;
+    background-color: rgb(8, 3, 77);
+} 
+.paragraphs{
+    display: grid;
+    grid-template-columns: 264px 223px 222px 214px;
+    grid-column-gap: 50px;
+    text-align: center;
+    position: relative;
+    bottom: 130px;
+}
+.web{
+   width: 40px;
+   height: 40px;
+}
+.flut{
+    width: 40px;
+    height: 40px;  
+}
+.java{
+    width: 40px;
+    height: 40px;
+}
+.sigma{
+    width: 40px;
+    height: 40px;
+}
+                                                                /* Section-third */
+.sec3{
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+img{
+    width: 310px;
+}
+.imgabout{
+    width: 290px;
+}
+.about{
+    width: 750px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.down{
+    padding: 10px;
+    margin-top: 80px;
+    color: rgb(14, 14, 143);
+    width: 150px;
+    background-color:rgb(2, 3, 36) ;
+    border: 1px;
+    border-color: white;
+    border-style: ridge;   
+}
+.down:hover{
+    font-size: 15px;
+    background-color: transparent;
+    color: white;
+}
+.center{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+                                                                    /* Fourth-Section */
+.first{
+    display: flex;
+    flex-direction: column; 
+    /* width: 1000px;   */
+    text-align: center;
+    position: relative;
+    top: 120px;
+}
+.sec4{
+    /* content: ""; */
+    background: url('./Pngs/pexels-philippe-donn-1169754.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    width: 98%;
+    height: 500px;
+    margin-bottom: 5px;
+    /* padding: 6rem 0; */
+    
+}
+.boxcent{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 150px;
+}
+.container1{
+    width: 360px;
+    height: 270px; 
+    border: 2px;
+    border-style: ridge;
+    border-radius: 10px;
+    border-color: antiquewhite;
+    text-align: center;
+    color: white;
+    background-color: rgb(1, 0, 14);
+}
+.pic3{
+    width: 90px;
+    height: 90px;
+}
+.sec4{
+    border: 2px solid white;
+}
+                                                        /* fifth-section */
+.sec5{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 50px;
+    
+    
+}
+.lastleft{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 500px;
+}
+.lastright{
+    display: flex;
+    flex-direction: column;
+     text-align: center; 
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+.info{
+    width: 300px;
+    height: 40px;
+    border: 2px solid white;
+    align-items: center;
+    background-color: transparent;
+    padding: 7px;
+}
+.chatme{
+    color: grey;
+}
+.call{
+    width: 300px;
+    height: 40px;
+    border: 2px solid white;
+    align-items: center;
+    background-color: transparent;
+    padding: 7px;
+}
+.lastsec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    
+    margin-bottom: 150px;
+}
+
